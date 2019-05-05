@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Example of Bootstrap</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		
+		<style>
+       
+			.navbar 
+			{
+				margin-bottom:0;
+				border-radius: 0;
+				border: 0;
+				min-height:70px !important;
+				background-color: #26a69a;
+			}
+			
+			.navbar li a, .navbar .navbar-brand 
+			{
+				color: white !important;
+			}
+			img.navbar-brand
+			{
+				width:30%;
+				height:30%;
+			}
+			
+			.form-group
+			{
+				width: 80%;
+				float:right;
+				padding-right:90px;
+			}
+			.jumbotron 
+			{
+						
+				position:relative;
+				overflow:hidden;
+				padding:0 !important;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+					
+			}
+			.jumbotron .container
+			{
+				position:relative;	
+				width:500px;
+					
+				margin-top:50px;
+				background-color:white;
+				border-radius: 10px;
+				-moz-border-radius: 10px;
+				-webkit-border-radius: 10px;
+				-o-border-radius: 10px;
+				-ms-border-radius: 10px;
+			}
+			.jumbotron .container h2
+			{
+				color:black;
+				text-align:center;
+				padding-bottom:10px;
+
+			}
+				
+			.jumbotron-background 
+			{
+				position:absolute;
+				top:50;
+				width:100%;
+				height:100%;
+			}
+						
+			.btn-primary
+			{
+				width: 50%;
+					
+				margin-bottom:20px;
+				border-radius: 5px;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-o-border-radius: 5px;
+				-ms-border-radius: 5px;
+				padding: 10px 20px;
+				box-sizing: border-box;
+				font-size: 15px;
+				font-weight: 700;
+				color: #fff;
+				text-transform: uppercase;
+				border: none;
+				background-image: -moz-linear-gradient(to left, #006064, #26a69a);
+				background-image: -ms-linear-gradient(to left, #006064, #26a69a);
+				background-image: -o-linear-gradient(to left, #006064, #26a69a);
+				background-image: -webkit-linear-gradient(to left, #006064, #26a69a);
+				background-image: linear-gradient(to left, #006064, #26a69a);
+					
+			}
+			
+			.text-justified 
+			{
+				text-align: justify;
+			}
+			.my-form 
+			{
+			color: #305896;
+			}
+    .my-form .btn-default {
+        background-color: #305896;
+        color: #fff;
+        border-radius: 0;
+		margin-bottom:20px;
+				border-radius: 5px;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-o-border-radius: 5px;
+				-ms-border-radius: 5px;
+				padding: 10px 20px;
+				box-sizing: border-box;
+				font-size: 15px;
+				font-weight: 700;
+				color: #fff;
+				text-transform: uppercase;
+				border: none;
+				background-image: -moz-linear-gradient(to left, #006064, #26a69a);
+				background-image: -ms-linear-gradient(to left, #006064, #26a69a);
+				background-image: -o-linear-gradient(to left, #006064, #26a69a);
+				background-image: -webkit-linear-gradient(to left, #006064, #26a69a);
+				background-image: linear-gradient(to left, #006064, #26a69a);
+		
+		
+    }
+	.my-form #btn1
+	{
+		margin:100px;
+	}
+    .my-form .btn-default:hover {
+        background-color: #4498C6;
+        color: #fff;
+    }
+    .my-form .form-control {
+        border-radius: 0;
+    }
+	.information
+	{
+		font-size:17px;
+		padding:30px;
+	}
+				
+		</style>
+		
+		<script type="text/javascript">
+			function sub() {
+			window.location.href = site;
+				}
+			function goTo(URL) {
+			site = URL;
+			}	
+		</script>
+	</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#indexNavbar" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<img class="navbar-brand" src="./img/logo.png"> 
+				<label class="navbar-brand">
+					<div class="my-logo" style="color:#186257;">LaSalle <span style="color: #BB1924;">Portfolio</span></div>
+					<span style="font-size:11px;">Ocean Of Opportunities</span>
+				</label>
+			</div>
+			<div class="collapse navbar-collapse" id="indexNavbar">
+          
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="file:///C:/Users/pooja/Downloads/New%20portfolio%20by%20manpreet/New%20portfolio/my.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+				    <li><a href="file:///C:/Users/pooja/Downloads/webdev/webdev/contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
+					
+				</ul> 
+			</div>
+		</div>
+	</nav>
+	
+		
+		<div class="container-fluid bcolor-gray padding-enabled">
+    <h2 class="text-center">Contact Us</h2>
+    <br/><br/>
+  
+    <div class="row">
+        <div class="col-md-6">
+         	<div id="map-container-google-1" class="z-depth-1-half map-container" style="height:300px">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11187.66556169331!2d-73.5815621!3d45.4916284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8dbf497cbd80d838!2sColl%C3%A8ge+LaSalle!5e0!3m2!1sen!2sca!4v1557002967225!5m2!1sen!2sca" 
+				width="400" height="300"></iframe>
+			</div>	
+			<div class ="information">
+			<p>Our contact information</p>
+					<p><span class="glyphicon glyphicon-map-marker text-green"></span> Montreal, Canada</p>
+					<p><span class="glyphicon glyphicon-phone text-green"></span> 888 888-888</p>
+					<p><span class="glyphicon glyphicon-envelope text-green"></span> LasalleCollege@gmail.com</p>
+			</div>	
+        </div>
+        <br />
+        <div class="col-md-6">
+            <form class="my-form">
+                <div class="form-group">
+                    <label for="form-name">Name</label>
+                    <input type="email" class="form-control" id="form-name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="form-email">Email Address</label>
+                    <input type="email" class="form-control" id="form-email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="form-message">Enter Your Message</label>
+                    <textarea class="form-control" id="form-message" placeholder="Message"></textarea>
+                </div>
+                <center><button class="btn btn-default" type="submit" id="btn1">Submit</button></center>                
+            </form>
+        </div>
+
+			
+		
+    </div>
+
+
+
+̣</body>
+̣</html>	

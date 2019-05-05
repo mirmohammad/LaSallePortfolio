@@ -1,0 +1,96 @@
+body{
+    color:#555;
+    font-family: sans-serif,monospace;
+    font-size: 16px;
+    margin:0;
+    
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+.head
+{
+    background-color: brown;
+    height: 100px;
+    
+}
+.logo{
+    float: left;
+    width: 350px;
+    margin-top: 20px;
+    
+}
+.logo h1{
+    color: aquamarine;
+    font-size: 35px;
+    padding-left: 70px;
+    margin-top: 60px;
+    
+}
+.logo span{
+    color: black;
+    font-size: 35px;
+}
+.menu{
+    float: right;
+    width: 45%;
+    margin-top: 27px;
+    
+}
+.menu ul{
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+    
+}
+.menu ul li{
+    height: 40px;
+    width;100%;
+    color: white;
+    box-sizing: border-box;
+    padding: 12px 15px 12px;
+}
+.menu a{
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    color: white;
+    font-size:21px;
+    font-weight: bold;
+}
+.menu a:hover{
+    color: slategray;
+}
+#newsletter{
+    padding: 15px;
+    color: darkslategrey;
+    background-color: azure;
+    margin-bottom: 30px;
+}
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter input[type="email"]{
+	height: 25px;
+	width: 250px;
+	padding: 4px;
+}
+
+.btn-1{
+	background-color: coral;
+	border: none;
+	height: 35px;
+	color: #fff;
+	padding: 0 20px;	
+}
+
+
+
